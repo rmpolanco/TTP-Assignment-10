@@ -24,8 +24,7 @@ CREATE TABLE Purchase(
     car_id int FOREIGN KEY,
     owner_id int FOREIGN KEY,
     brand varchar(20) FOREIGN KEY,
-    cost int,
-
+    cost int
 );
 
 CREATE TABLE Dealer(
